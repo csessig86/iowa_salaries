@@ -9,9 +9,8 @@
 <link rel="stylesheet" type="text/css" href="css/demo_table.css" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.1.custom.min.css" />
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 <noscript>
 	<div id="noscript_note">You must have JavaScript enabled to view this page.</div>
@@ -19,14 +18,23 @@
 
 <h3>Iowa public employee salaries</h3>
 
+<div id="loading" title="Loading">
+<p>The table is loading...</p>
+</div>
+
 <div id="table_info"></div>
 <div id="table_div"></div>
 
+<script type="text/javascript" src="scripts/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui-1.10.1.custom.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="scripts/DT_bootstrap.js"></script>
 <script type="text/javascript" src="scripts/bootstrap-dropdown.js"></script>
 <script type="text/javascript" src="scripts/miso.ds.deps.ie.0.4.1.js"></script>
 <script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+	$("#loading").dialog();
+</script>
 
 </body>
 </html>

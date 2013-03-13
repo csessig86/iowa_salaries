@@ -49,6 +49,9 @@ function showInfo() {
 			"sLengthMenu": "_MENU_ records per page"
 		}
 	});
+
+	$( "#loading" ).dialog( "destroy" );
+	$( "#loading" ).html( "" );
 }
 
 // Load up the CSV using Miso.Dataset

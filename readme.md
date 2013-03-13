@@ -18,3 +18,6 @@ http://twitter.github.com/bootstrap/
 This example creates a database of Iowa public employee salaries
 - Data pulled from the Iowa Department of Adminstrative Services:
 https://www.legis.iowa.gov/LSAReports/salaryBook.aspx
+
+Note: To run locally, open up you command line, navigate to this folder and run:
+python -m SimpleHTTPServer
